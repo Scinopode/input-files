@@ -154,7 +154,7 @@
                 <time_stepping>
                     <type>FixedTimeStepping</type>
                     <t_initial>0</t_initial>
-                    <t_end>1000.0</t_end>
+                    <t_end>1000</t_end>
                     <timesteps>
                         <pair>
                             <repeat>100</repeat>
@@ -241,7 +241,7 @@
         <nonlinear_solver>
             <name>     basic_newton </name>
             <type>     Newton       </type>
-            <max_iter> 150          </max_iter>
+            <max_iter> 50          </max_iter>
             <linear_solver>general_linear_solver</linear_solver>
         </nonlinear_solver>
     </nonlinear_solvers>
