@@ -1,0 +1,38 @@
+<VTKFile type="UnstructuredGrid" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="8" NumberOfCells="1">
+      <PointData Scalars="p_LR">
+        <DataArray type="Float64" Name="p_c" format="ascii" RangeMin="100" RangeMax="9910">
+          100 100 9910 9910 5005 100
+          9910 5005
+        </DataArray>
+        <DataArray type="Float64" Name="p_LR" format="ascii" RangeMin="90090" RangeMax="99900">
+          99900 99900 90090 90090 94995 99900
+          90090 94995
+        </DataArray>
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Points" NumberOfComponents="3" format="ascii" RangeMin="0" RangeMax="1.0049875621">
+          0 0 0 0.1 0 0
+          0 1 0 0.1 1 0
+          0 0.5 0 0.05 0 0
+          0.05 1 0 0.1 0.5 0
+        </DataArray>
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="ascii" RangeMin="0" RangeMax="7">
+          0 1 3 2 5 7
+          6 4
+        </DataArray>
+        <DataArray type="Int64" Name="offsets" format="ascii" RangeMin="8" RangeMax="8">
+          8
+        </DataArray>
+        <DataArray type="UInt8" Name="types" format="ascii" RangeMin="23" RangeMax="23">
+          23
+        </DataArray>
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+</VTKFile>
